@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> O jogo </title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+        <script src="jogo.js"></script>  
+  </head>
+
+    <body onload="iniciajogo()">
+
+       <div  style="float: left; width: auto; background-color: aliceblue; margin-right: 5px;">
+            <table>
+                <tr>
+                    <td>
+                        <img src="imagens/balao_azul_grande.png"/>
+                    </td>
+                    <td>
+                        <span id="baloes_inteiros" style="font-size: 40px;"></span>
+                    </td>
+                </tr>
+            </table>
+
+            <br/>
+            <table>
+                <tr>
+                    <td>
+                        <img src="imagens/balao_azul_grande_estourado.png"/>
+                    </td>
+                    <td>
+                        <span id="baloes_estourados" style="font-size: 40px;"></span>
+                    </td>
+                </tr>
+            </table>
+
+            <br/>
+            <table style="width: 140px; height: 132px;">
+                <tr>
+                    <td style="text-align:center; background: url('imagens/cronometro.png')">
+                        <span id="cronometro" style="color:red; font-size:30px;"></span>
+                    </td>
+                </tr>
+            </table>
+       </div>
+
+       <div id="cenario" style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom;"></div>
+
+    </body>
+
+</html>

@@ -1,0 +1,7 @@
+.fundo{
+    background: url('imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    top: 0px;
+}
